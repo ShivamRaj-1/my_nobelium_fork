@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: linear-gradient(to bottom right,rgb(204, 5, 204), aqua);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+section{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 23px;
+}
+
+section h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.divider{
+    width: 50%;
+    border: 2px solid rgba(6, 221, 150, 0.788);
+    border-radius: 23px;
+}
+
+form{
+    width: 90%;
+    margin: auto;
+
+    margin-top: 35px;
+    box-sizing: border-box;
+}
+
+.formTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.formTop select{
+    width: 48%;
+}
+.formMiddle{
+    display: flex;
+    flex-direction: column;
+}
+.formBottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 10px 0;
+}
+.formBottom label{
+    color: white;
+}
+.formBottom label a{
+    color: rgb(26, 153, 111);
+}
+.button{
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+.button button{
+    display: block;
+    border: none;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+
+    cursor: pointer;
+    color: white;
+    background-color: rgba(6, 221, 150, 0.788);
+    border-radius: 23px;
+}
+
+
+/* ================ utilities =========== */
+.inputBox{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 23px;
+
+    width: 40%;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.fullWidth{
+    width: 100% ;
+    box-sizing: border-box;
+}
+
+
+/* ++++++++++++++++++++++ RESPONSIVE ++++++++++++++++++ */
+
+/* for Phones */
+@media (max-width: 480px) {     
+    section{
+        width: 80%;
+    }
+    .inputBox{
+        width: 100%;
+    }
+    .formTop select{
+        width: 100%;
+    }
+}
+
+/* for tablets  */
+@media (min-width: 481px) and (max-width: 767px) {
+    section{
+        width: 50%;
+    }
+    .inputBox{
+        width: 100%;
+    }
+    .formTop select{
+        width: 100%;
+    }
+}
+
+/* for big tablets and tablet portrait mode  */
+@media (min-width: 768px) and (max-width: 1024px) {
+    section{
+        width: 60%;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <h1>REGISTER</h1>
+        <hr class="divider">
+        <form action="" method="post">
+            <div class="formTop">
+                <input type="text" class="inputBox" placeholder="First Name">
+                <input type="text" class="inputBox" placeholder="Last Name">
+                <select name="gender" id="gender" class="inputBox">
+                    <option value="gender" disabled selected>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="text" class="inputBox" placeholder="Phone Number">    
+            </div>
+
+            <div class="formMiddle">
+                <input type="email" class="inputBox fullWidth" placeholder="Email">
+                <input type="password" class="inputBox fullWidth" placeholder="Password">
+                <input type="password" class="inputBox fullWidth" placeholder="Confirm Password">
+            </div>
+
+            <div class="formBottom">
+                <input type="checkbox" name="termsOfUse" value="accepted">
+                <label for="termsOfUse" >I accept <a href="*">Terms of Use</a></label>
+            </div>
+            <div class="button">
+                <button type="submit">Register Now</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
