@@ -1,0 +1,5 @@
+git stash pop
+git stash pop throws away the stash after applying it. 
+
+git stash apply
+git stash apply leaves it in the stash list for possible later reuse.
