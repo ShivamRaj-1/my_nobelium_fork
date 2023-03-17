@@ -1,0 +1,27 @@
+h2{
+  color: blueviolet;
+}
+
+div{
+  margin : 50px
+}
+
+.listCompo p{
+  font-weight: 700;
+  font-size: 20px;
+}
+.listCompo button{
+  margin: 0 10px;
+}
+
+.counterCompo div{
+  margin: 0;
+}
+.counterCompo h1{
+  color: red;
+  font-size: 44px;
+  margin-left: 110px;
+}
+.counterCompo button{
+  margin: 0 10px;
+}
