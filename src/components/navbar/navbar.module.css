@@ -1,0 +1,140 @@
+.mainNavbarDiv{
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.mainNavbarDiv i{
+    display: none;
+}
+
+.navInnerDiv{
+    display: flex;
+
+}
+
+.mainLogo{
+    padding: 0 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 40px;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    border-right: 2px solid gray;
+
+    display: flex;
+    align-items: center;
+}
+
+.listMain{
+    display: flex;
+    align-items: center;
+}
+.listMain i{
+    display: none;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.loginBtn{
+    outline: none;
+    background: transparent;
+    border: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+}
+.loginBtn:hover{
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.signupBtn{
+    outline: none;
+    background: transparent;
+    border: 2px solid orange;
+    border-radius: 23px;
+    padding: 8px 15px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+/* +++++++++ responsive +++++++ */
+
+
+/* tablet  */
+@media screen and (max-width:768px) {
+    .listMain{
+        display: block;
+
+        position: fixed;
+		background: orange;
+		height: 100vh;
+		width: 200px;
+		top: 0;
+		right: -400px;
+		z-index: 2;
+		transition: 1.5s;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: ; */
+    }
+    .list li{
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .btns{
+        /* display: none; */
+        position: fixed;
+        z-index: 2;
+        right: -400px;
+        top: 30vh;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 1.5s;
+    }
+    .btns button{
+        font-size: 20px;
+        border: 2px solid white;
+        border-radius: 23px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        color: white;
+    }
+    .mainNavbarDiv i{
+        display: block;
+        margin-right: 25px;
+        font-size: 2rem;
+    }
+
+}
+
+/* phone  */
+@media screen and (max-width: 400px){
+    .mainLogo{
+        margin-left: 10px;
+    }
+    .btnsDiv i{
+        margin-right: 10px;
+    }
+}
