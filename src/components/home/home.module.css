@@ -1,0 +1,27 @@
+.homeMain h2{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.homeInner{
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-color: rgb(190, 189, 189);
+    border-radius: 5px;
+}
+
+.homeInner h2{
+    font-size: 34px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.homeInner button{
+    padding: 15px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(8, 103, 236);
+    font-size: 18px;
+}

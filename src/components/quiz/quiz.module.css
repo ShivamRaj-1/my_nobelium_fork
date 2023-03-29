@@ -1,0 +1,85 @@
+
+/* ++++++++++++++++ Quiz Component ++++++++++++++++++++++++ */
+
+.quizMain {
+  width: 100%;
+  position: relative;
+}
+
+.quizMain>input {
+  background-color: red;
+  color: white;
+
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+
+  border: none;
+  outline: none;
+  border-radius: 6px;
+
+  position: absolute;
+  right: 0px;
+}
+
+.question p {
+  font-size: 18px;
+  color: royalblue;
+  font-weight: 500;
+}
+
+.optionContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.optionContainer button {
+  margin: 5px 0;
+  font-size: 16px;
+  background-color: white;
+  outline: none;
+  border: 1px solid gray;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+.checked {
+  background-color: royalblue !important;
+  color: white;
+  font-weight: 300;
+}
+
+
+/* +++++++++++++++++++++++ QuizResult Component ++++++++++++++++++++++ */
+
+.quizResultMain{
+  text-align: center;
+}
+
+.quizResultMain h1{
+  font-weight: 500;
+
+}
+
+.tryBtn{
+  padding: 10px 20px;
+  background-color: red;
+  outline: none;
+  border: none;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homeBtn{
+  padding: 10px 20px;
+  background-color: royalblue;
+  outline: none;
+  border: none;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
