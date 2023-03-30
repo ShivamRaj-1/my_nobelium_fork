@@ -1,0 +1,40 @@
+.mainNavbar{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0 5px 0;
+    padding: 5px 0 5px 0 ;
+    box-shadow: 0 0 10px gray;
+
+    background-color: white;
+} 
+
+.logoPart{
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 28px !important;
+    color: blueviolet;
+    cursor: pointer;
+}
+.logoPart p{
+    margin: 10px;
+}
+
+.linkPart{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.linkPart span{
+    margin: 0 10px;
+}
+.linkPart span:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+

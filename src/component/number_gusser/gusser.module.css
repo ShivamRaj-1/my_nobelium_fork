@@ -1,0 +1,45 @@
+.guessMain{
+    width: 100vw;
+}
+
+.guessContainer{
+    width: 36%;
+    margin: auto;
+
+    padding: 50px;
+    box-sizing: border-box;
+
+    box-shadow: 0 0 10px gray;
+    border-radius: 23px;
+}
+
+.guessContainer > h1{
+    font-weight: 500;
+    margin-top: 0;
+    color: blueviolet;
+}
+
+.guessContainer > p{
+    font-size: 18px;
+}
+
+.guessContainer > input{
+    padding: 8px 16px ;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin-right: 30px;
+    color: blueviolet;
+    font-weight: 500;
+}
+
+.guessContainer button{
+    padding: 8px 16px ;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+}
