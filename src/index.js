@@ -4,10 +4,37 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { RecoilRoot } from 'recoil';
+import {
+  createBrowserRouter,
+  RouterProvider
+} from "react-router-dom";
+
+import Home from './components/home/Home'
+import Task from './components/tasks/Task'
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/task",
+    element: <Task />
+  },
+  
+]);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 root.render(
   <React.StrictMode>
-    <App />
+    <RecoilRoot>
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
+    </RecoilRoot>
   </React.StrictMode>
 );
 
