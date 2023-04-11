@@ -1,0 +1,41 @@
+.main_container{
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main_container h1{
+    margin: 10px 15px;
+}
+
+.main_container  table{
+    width: 98%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.main_container  table th{
+    border: 2px solid black;
+    font-size: 18px;
+    color: red;
+}
+.main_container  table td{
+    border: 1px dotted gray;
+    border-style: dashed;
+    padding: 10px;
+    /* border-right: ; */
+}
+.main_container  table td:nth-child(1){
+    color: blue;
+    text-align: center;
+}
+.main_container table td:nth-child(2){
+    color: brown;
+}
+.main_container  table td:nth-child(3){
+    color: #577D86;
+}
+.main_container  table td:nth-child(4){
+    text-align: center;
+    cursor: pointer;
+}
