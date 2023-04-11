@@ -96,7 +96,11 @@ export default function Forms() {
             </section>
 
             <section className={FS.bottom_section}>
-                <table >
+                
+                {
+                    (userData.current.length === 0) ? null 
+                    : (
+                        <table >
 
                     <thead>
                         <tr>
@@ -129,6 +133,10 @@ export default function Forms() {
                         }
                     </tbody>
                 </table>
+                    )
+                    
+                }
+                
             </section>
 
         </div>

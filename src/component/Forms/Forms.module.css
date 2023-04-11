@@ -1,6 +1,7 @@
 .main_background{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-height: 100vh;
+    background-color: #FBFFB1;
 }
 
 .top_section{
@@ -14,6 +15,7 @@
     box-sizing: border-box;
 
     padding: 20px 100px;
+    background-color: #FFEBB4;
 }
 
 .left_form input{
@@ -21,6 +23,7 @@
     border: none;
     border-bottom: 1px dashed gray;
     width: 350px;
+    background-color: transparent;
 }
 
 .left_form button{
@@ -28,7 +31,7 @@
     padding: 10px 25px;
     border-radius: 8px;
     border: none;
-    background-color: blueviolet;
+    background-color: #A4907C;
     color: white;
 }
 
@@ -50,12 +53,22 @@
 }
 
 .bottom_section table th{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
 }
 
 .bottom_section td{
     border: 1px dotted gray;
     text-align: center;
+
+}
+
+.bottom_section tbody tr:nth-child(even){
+    background-color: #C7E8CA;
+}
+.bottom_section tbody tr:nth-child(odd){
+    background-color: #DDF7E3;
 }
 
 .bottom_section td:nth-child(1){
