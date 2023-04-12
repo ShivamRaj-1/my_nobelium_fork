@@ -1,0 +1,61 @@
+.main_background{
+    width: 100%;
+}
+.main_background > button{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 3px 10px;
+}
+
+.top_section{
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+hr{
+    display: inline-block;
+    width: 100vw;
+}
+
+.cart_section{
+    width: 50%;
+    display: inline-table;
+}
+.cart_section table{
+    margin: 0 30px;
+    display: inline-table;
+}
+
+.cart_section table td{
+    padding-right: 10px;
+}
+
+.cart_section table td p{
+    /* display: inline-block; */
+    margin-top: 0;
+}
+
+.display_div{
+    padding:  0 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.display_div table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.display_div table td,
+.display_div table th{
+    padding: 3px 5px;
+}
+
+.display_div table thead tr:nth-child(1),
+.display_div table thead tr:nth-child(2){
+    text-align: left;
+    font-weight: 100;
+}
+
+
