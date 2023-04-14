@@ -1,0 +1,35 @@
+.main_container{
+    display: flex;
+    width: 100%;
+}
+
+.right_container{
+    width: 50%;
+    /* margin: 10px; */
+    border: 1px solid black;
+}
+.right_container > table td{
+    padding:  0 10px;
+}
+
+.left_container{
+    width: 50%;   
+    /* margin: 10px; */
+    border: 1px solid black;
+}
+.left_container > table{
+    width: 100%;
+    margin: 0;
+}
+.left_container > table td{
+    padding:  0 10px;
+    
+}
+ span{
+    color: red;
+}
+h1{
+    text-align: center;
+    border: 1px solid black;
+}
+
